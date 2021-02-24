@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         self.browser.urlChanged.connect(self.update_url)
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('https://github.com/greencoder001/Qorge/engine.html'))
+        self.browser.setUrl(QUrl('https://greencoder001.github.io/Qorge/engine.html'))
 
     def navigate_to_url(self):
         url = self.url_bar.text()
